@@ -1,0 +1,14 @@
+{
+  "name": "mutil",
+  "version": "1.0.0",
+  "description": "javascript util",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "maduar <maduar86@gmail.com>",
+  "license": "MIT"
+}
