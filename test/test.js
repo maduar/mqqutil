@@ -41,9 +41,15 @@ describe('test', function (  ) {
                 }
             ]
 
-            assert.equal(uniqueResult, uniqueTemp);
+            // assert.equal(uniqueResult, uniqueTemp);
 
+            const str = 'abc1',
+                replace = mqqutil.replace,
+                toUpperCase = mqqutil.toUpperCase,
+                req = /[\d]+/g,
+                replaceAndToUpperCase = mqqutil.compose(replace(req, ''), toUpperCase);
 
+            assert.equal(replaceAndToUpperCase(str), 'ABC');
 
 
 
