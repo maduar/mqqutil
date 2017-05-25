@@ -1,13 +1,13 @@
 {
-  "name": "mutil",
+  "name": "mqqutil",
   "version": "1.0.0",
-  "description": "javascript util",
+  "description": "javascript",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "keywords": [
-    "JavaScript"
+    "javascript"
   ],
   "author": "maduar <maduar86@gmail.com>",
   "license": "MIT"
