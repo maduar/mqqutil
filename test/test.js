@@ -2,7 +2,7 @@
  * Created by maduar on 25/05/2017.
  */
 const assert = require('assert'),
-    mqqutil = require('../dist/mutil');
+    mqqutil = require('../lib/mutil');
 describe('test', function (  ) {
     describe('t1', function (  ) {
         it('test fn', function (  ) {
