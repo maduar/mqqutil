@@ -1,6 +1,6 @@
 {
   "name": "mqqutil",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "javascript",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,7 @@
   "author": "maduar <maduar86@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "hashcode": "^1.0.3",
     "lodash": "^4.17.4"
   }
 }
